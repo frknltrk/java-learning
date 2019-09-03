@@ -27,7 +27,7 @@ public class MainFrame extends JFrame{
             }
         });
         
-// "a new StringListener interface object - with an imitated appendText method (textEmitted) in it";
+// a new "StringListener interface object" - with an "imitated appendText method (textEmitted)" in it;
 // has been created [1]
 // and sent off to Toolbar [2]
 // ---------------------------------------------------------------------------------------------------------------------------
