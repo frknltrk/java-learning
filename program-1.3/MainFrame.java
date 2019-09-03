@@ -17,16 +17,20 @@ public class MainFrame extends JFrame{
 
         textPanel=new TextPanel();
         toolbar=new Toolbar();
-
+// --------------------------------------------------------------------------------------------------------------------------
         toolbar.setStringListener(new StringListener(){     // forwards from "new";
                                                             // baby has just born ("creation" including "definition")
                                                             // an anonymous (nameless) StringListener object.
             @Override
             public void textEmitted(String text) {
-                textPanel.appendText(text);                 // textPanel - end of rope
+                textPanel.appendText(text);
             }
         });
-
+        
+// "a new StringListener interface object - with an imitated appendText method (textEmitted) in it";
+// has been created [1]
+// and sent off to Toolbar [2]
+// ---------------------------------------------------------------------------------------------------------------------------
         add(toolbar,BorderLayout.NORTH);
         add(textPanel,BorderLayout.CENTER);
 
