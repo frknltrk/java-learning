@@ -23,7 +23,7 @@ public class MainFrame extends JFrame{
                                                             // an anonymous (nameless) StringListener object.
             @Override
             public void textEmitted(String text) {
-                textPanel.appendText(text);                 // textPanel-end of rope
+                textPanel.appendText(text);                 // textPanel - end of rope
             }
         });
 
