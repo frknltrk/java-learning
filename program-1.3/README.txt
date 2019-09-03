@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 interfaces enable us to use any method of "class X" within "class Y"
 via overridable methods which you can create in it.
 those methods are "mimic", per se.
@@ -17,6 +16,3 @@ so we create an interface (StringListener), and its object inside Toolbar.
 2. we need to use appendText.
 so we create a similar (to appendText) method (also overridable) inside StringListener
 and define it in MainFrame.
-=======
-a full-MVC program.
->>>>>>> 8d2314e99f4b4c99a1bc447942ee026850a1a5e1
