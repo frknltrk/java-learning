@@ -19,7 +19,7 @@ public class MainFrame extends JFrame{
         toolbar=new Toolbar();
 
         toolbar.setStringListener(new StringListener(){     // forwards from "new";
-                                                            // baby has just born ("creation" including "description")
+                                                            // baby has just born ("creation" including "definition")
                                                             // an anonymous (nameless) StringListener object.
             @Override
             public void textEmitted(String text) {
