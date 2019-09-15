@@ -3,7 +3,7 @@ problem: there is a reference inside Toolbar for TextPanel.
 
 ALGORITHM (IN ORDER)
 -------------------------------
--- in class "Toolbar" --
+-- inside class "Toolbar" --
 
 addActionListener(s);
 actionPerformed {
