@@ -5,12 +5,6 @@
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "App"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Main",
-            "request": "launch",
-            "mainClass": "Main"
         }
     ]
 }
