@@ -1,6 +1,6 @@
 a semi-MVC program.
 problem: there is a reference to TextPanel in Toolbar.
-
+_____________________________________________________________
 ALGORITHM (IN ORDER)
 -------------------------------
 -- inside class "Toolbar" --
