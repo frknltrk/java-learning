@@ -1,16 +1,16 @@
 a semi-MVC program.
-problem: there is a reference inside Toolbar for TextPanel.
-
+problem: there is a reference to "TextPanel" in the class "Toolbar".
+_____________________________________________________________
 ALGORITHM (IN ORDER)
 -------------------------------
--- in class "Toolbar" --
+-- inside class "Toolbar" --
 
 addActionListener(s);
 actionPerformed {
 textPanel.appendText();
 }
 -------------------------------
-that means, we need an object reference of TextPanel within Toolbar.
+that means, we need an object reference to "TextPanel" in the class "Toolbar".
 .
 .
 .

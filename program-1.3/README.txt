@@ -1,8 +1,8 @@
-interfaces enable us to use any method of "class X" within "class Y"
+interfaces enable us to use any method of "class X" in "class Y"
 via overridable methods which you can create in it.
 those methods are "mimic", per se.
 "method INT." has to be formally similar to "method X".
-"method INT." doesn't have definition inside interface. it gets it in MainFrame.
+"method INT." doesn't have body (definition) within the interface. it gets it in MainFrame.
 ---------------------------------------------------------------------------------------
 RESULT
 for each method;
