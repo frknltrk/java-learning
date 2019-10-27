@@ -18,7 +18,7 @@ public class MainFrame extends JFrame{
         textPanel=new TextPanel();
         toolbar=new Toolbar();
 
-        toolbar.setTextPanel(this.textPanel);       // all classes must interact each other only within MainFrame.
+        toolbar.setTextPanel(this.textPanel);       // all classes must interact with each other only within MainFrame.
                                                     // this is called "MVC"
 
         add(toolbar,BorderLayout.NORTH);
