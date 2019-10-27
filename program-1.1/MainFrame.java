@@ -16,14 +16,14 @@ public class MainFrame extends JFrame {
         setLocationRelativeTo(null);
 
         setLayout(new BorderLayout());
-        
-        button=new JButton("Click Me!");
-        textArea=new TextArea();
-        add(button,BorderLayout.NORTH);
-        add(textArea,BorderLayout.CENTER);
 
-        button.addActionListener(new ActionListener(){
-        
+        button = new JButton("Click Me!");
+        textArea = new TextArea();
+        add(button, BorderLayout.NORTH);
+        add(textArea, BorderLayout.CENTER);
+
+        button.addActionListener(new ActionListener() {
+
             @Override
             public void actionPerformed(ActionEvent e) {
                 textArea.appendText("You've just clicked.\n");
@@ -32,5 +32,5 @@ public class MainFrame extends JFrame {
 
         setVisible(true);
     }
-    
+
 }

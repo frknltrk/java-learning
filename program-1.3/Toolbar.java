@@ -18,8 +18,8 @@ public class Toolbar extends JPanel implements ActionListener { // creates a pan
         helloButton = new JButton("Hello");
         goodbyeButton = new JButton("Goodbye");
 
-        helloButton.addActionListener(this);        // adds a.c which is within this class
-        goodbyeButton.addActionListener(this);      // adds a.c which is within this class
+        helloButton.addActionListener(this); // adds a.c which is within this class
+        goodbyeButton.addActionListener(this); // adds a.c which is within this class
 
         setLayout(new FlowLayout(FlowLayout.LEFT));
 
@@ -27,17 +27,16 @@ public class Toolbar extends JPanel implements ActionListener { // creates a pan
         add(goodbyeButton);
     }
 
-    public void setStringListener(StringListener listener) {    // assigner (namer) of nameless StringListener object
-        this.listener = listener;                 
+    public void setStringListener(StringListener listener) { // assigner (namer) of nameless StringListener object
+        this.listener = listener;
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        JButton clicked=(JButton)e.getSource();         // clicked checker
-        if(clicked==helloButton){
+        JButton clicked = (JButton) e.getSource(); // clicked checker
+        if (clicked == helloButton) {
             listener.textEmitted("Hello!\n");
-        }
-        else{
+        } else {
             listener.textEmitted("Goodbye!\n");
         }
     }
